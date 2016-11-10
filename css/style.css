@@ -136,5 +136,183 @@ h1 {
 	color: #515153;
 }
 .buy-section {
-	clear: both;
+	clear: both; /*not sure if thath's right*/
+	background-color: #E8776B;
+}
+.buy-section p {
+	color: #fff;
+	padding: 40px 40px 40px 80px;
+}
+/* cant position buy botton normally*/
+.buy-button { 
+	position: absolute;
+	margin-top:  -6%;
+	margin-left: 85%;
+	float: right;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 7px;
+}
+.about-section {
+	display: inline-block;
+	background-color: #5E95CD;
+	padding: 100px;
+}
+.about-section img {
+	width: 30%;
+}
+.paragraph {
+	float: right;
+	width: 50%;
+	color: #fff;
+}
+.price-section {
+	background-color: #fff;
+}
+.price-section table {
+	border: 1px solid gray;
+	margin: 0 auto;
+	margin-top: 50px; 
+	margin-bottom: 50px;
+	width: 80%;
+	text-align: center;
+	color: gray;
+}
+td {
+	border: 1px solid gray;
+	padding: 10px;
+}
+.first-row {
+	background-color: #E1E1E1;
+}
+.first-row td:nth-child(2) {
+	background-color: #E8776B;
+	color: #fff;
+}
+.second-row {
+	background-color: #EEEEEE;
+	color: #E8776B;
+	font-size: 1.1em;
+}
+.fourth-row {
+	background-color: #EEEEEE;
+}
+.sixth-row {
+	background-color: #EEEEEE;
+}
+.signup-button-red {
+	width: 160px;
+	height: 25px;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #E8776B;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+}
+.signup-section	{
+	background: linear-gradient(to left, #561244, #B06F60);
+	padding: 50px;
+	color: white;
+	margin: 0 auto;
+}
+.signup-section p {
+	text-align: center;
+}
+.signup-section input {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 35%; /* not sure*/
+	width: 220px;
+	height: 20px;
+}
+.signup-button-blue {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	color: #fff;
+	background-color: #5E95CD;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 0.6em;
+}
+.signup-button-blue,
+.signup-button-red,
+.view-button:hover {
+	cursor: pointer;
+}
+.profile-section {
+	color: gray;
+	padding: 50px;
+	margin-left: 30%; /* margin: 0 auto doesnt work*/;
+}
+.profile-photo img {
+	display: inline-block;
+	float: left;
+	width: 130px;
+	height: 120px;
+	border-radius: 100%;
+}
+.profile-info {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.view-button {
+	width: 130px;
+	height: 15px;
+	color: #fff;
+	background-color: #E8776B;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 0.8em;
+}
+.page-footer {
+	background-color: #e8776b;
+	color: #fff;
+	font-size: 0.7em;
+	padding: 20px;
+}
+.page-footer p {
+	float: left;
+	padding-left: 100px;
+}
+.social-buttons {
+	float: right;
+	position: relative;
+	background: url(img/sprite.png);
+}
+.mail {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: 0 20px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+.facebook {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: 0 20px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+.twitter {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: 0 50px;
+	border: 1px solid black;
+	border-radius: 100%;
 }
